@@ -13,8 +13,6 @@
 @synthesize managedObjectContext;
 @synthesize fileName;
 
-//YAY
-
 //inicializacao com nome de ficheiro especificado
 /* DESIGNATED INITIALIZER */
 -(id)initWithFileName: (NSString *) file
