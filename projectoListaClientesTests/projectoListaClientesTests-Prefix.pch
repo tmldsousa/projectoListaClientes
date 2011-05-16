@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'projectoListaClientesTests' target in the 'projectoListaClientesTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

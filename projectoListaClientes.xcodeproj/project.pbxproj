@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9DFFFD1380907C00B1EA1F /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9DFFFC1380907C00B1EA1F /* GlobalVariables.m */; };
+		FCA403D8137D323700CB88B2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA403D7137D323700CB88B2 /* CoreData.framework */; };
+		FCBA1C48137D6A74006540EB /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBA1C47137D6A74006540EB /* CoreDataManager.m */; };
+		FCBA1C49137D6A74006540EB /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBA1C47137D6A74006540EB /* CoreDataManager.m */; };
+		FCE5440E137C291E002B5095 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCE5440C137C291E002B5095 /* Model.xcdatamodeld */; };
+		FCE54412137C2A8D002B5095 /* Cliente.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE54411137C2A8D002B5095 /* Cliente.m */; };
+		FCE54418137C41B0002B5095 /* projectoListaClientesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF7929137BF9AE000DB8EA /* projectoListaClientesViewController.m */; };
+		FCEF7914137BF9AD000DB8EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF7913137BF9AD000DB8EA /* UIKit.framework */; };
+		FCEF7916137BF9AD000DB8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF7915137BF9AD000DB8EA /* Foundation.framework */; };
+		FCEF7918137BF9AD000DB8EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF7917137BF9AD000DB8EA /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		FCEF791E137BF9AE000DB8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEF791C137BF9AE000DB8EA /* InfoPlist.strings */; };
+		FCEF7921137BF9AE000DB8EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF7920137BF9AE000DB8EA /* main.m */; };
+		FCEF7924137BF9AE000DB8EA /* projectoListaClientesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF7923137BF9AE000DB8EA /* projectoListaClientesAppDelegate.m */; };
+		FCEF7927137BF9AE000DB8EA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEF7925137BF9AE000DB8EA /* MainWindow.xib */; };
+		FCEF792A137BF9AE000DB8EA /* projectoListaClientesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF7929137BF9AE000DB8EA /* projectoListaClientesViewController.m */; };
+		FCEF792D137BF9AE000DB8EA /* projectoListaClientesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEF792B137BF9AE000DB8EA /* projectoListaClientesViewController.xib */; };
+		FCEF7934137BF9AF000DB8EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF7913137BF9AD000DB8EA /* UIKit.framework */; };
+		FCEF7935137BF9AF000DB8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF7915137BF9AD000DB8EA /* Foundation.framework */; };
+		FCEF7936137BF9AF000DB8EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF7917137BF9AD000DB8EA /* CoreGraphics.framework */; };
+		FCEF793E137BF9AF000DB8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEF793C137BF9AF000DB8EA /* InfoPlist.strings */; };
+		FCEF7941137BF9AF000DB8EA /* projectoListaClientesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FCEF7940137BF9AF000DB8EA /* projectoListaClientesTests.h */; };
+		FCEF7943137BF9AF000DB8EA /* projectoListaClientesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF7942137BF9AF000DB8EA /* projectoListaClientesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCEF7937137BF9AF000DB8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEF7906137BF9AC000DB8EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEF790E137BF9AD000DB8EA;
+			remoteInfo = projectoListaClientes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC9DFFFB1380907C00B1EA1F /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		FC9DFFFC1380907C00B1EA1F /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		FCA403D7137D323700CB88B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FCBA1C46137D6A74006540EB /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		FCBA1C47137D6A74006540EB /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		FCE5440D137C291E002B5095 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FCE54410137C2A8D002B5095 /* Cliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cliente.h; sourceTree = "<group>"; };
+		FCE54411137C2A8D002B5095 /* Cliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cliente.m; sourceTree = "<group>"; };
+		FCEF790F137BF9AD000DB8EA /* projectoListaClientes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectoListaClientes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEF7913137BF9AD000DB8EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCEF7915137BF9AD000DB8EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCEF7917137BF9AD000DB8EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCEF791B137BF9AE000DB8EA /* projectoListaClientes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "projectoListaClientes-Info.plist"; sourceTree = "<group>"; };
+		FCEF791D137BF9AE000DB8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCEF791F137BF9AE000DB8EA /* projectoListaClientes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "projectoListaClientes-Prefix.pch"; sourceTree = "<group>"; };
+		FCEF7920137BF9AE000DB8EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCEF7922137BF9AE000DB8EA /* projectoListaClientesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectoListaClientesAppDelegate.h; sourceTree = "<group>"; };
+		FCEF7923137BF9AE000DB8EA /* projectoListaClientesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectoListaClientesAppDelegate.m; sourceTree = "<group>"; };
+		FCEF7926137BF9AE000DB8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FCEF7928137BF9AE000DB8EA /* projectoListaClientesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectoListaClientesViewController.h; sourceTree = "<group>"; };
+		FCEF7929137BF9AE000DB8EA /* projectoListaClientesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectoListaClientesViewController.m; sourceTree = "<group>"; };
+		FCEF792C137BF9AE000DB8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/projectoListaClientesViewController.xib; sourceTree = "<group>"; };
+		FCEF7933137BF9AF000DB8EA /* projectoListaClientesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectoListaClientesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEF793B137BF9AF000DB8EA /* projectoListaClientesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "projectoListaClientesTests-Info.plist"; sourceTree = "<group>"; };
+		FCEF793D137BF9AF000DB8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCEF793F137BF9AF000DB8EA /* projectoListaClientesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "projectoListaClientesTests-Prefix.pch"; sourceTree = "<group>"; };
+		FCEF7940137BF9AF000DB8EA /* projectoListaClientesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectoListaClientesTests.h; sourceTree = "<group>"; };
+		FCEF7942137BF9AF000DB8EA /* projectoListaClientesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectoListaClientesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEF790C137BF9AD000DB8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA403D8137D323700CB88B2 /* CoreData.framework in Frameworks */,
+				FCEF7914137BF9AD000DB8EA /* UIKit.framework in Frameworks */,
+				FCEF7916137BF9AD000DB8EA /* Foundation.framework in Frameworks */,
+				FCEF7918137BF9AD000DB8EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEF792F137BF9AF000DB8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF7934137BF9AF000DB8EA /* UIKit.framework in Frameworks */,
+				FCEF7935137BF9AF000DB8EA /* Foundation.framework in Frameworks */,
+				FCEF7936137BF9AF000DB8EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCEF7904137BF9AC000DB8EA = {
+			isa = PBXGroup;
+			children = (
+				FC9DFFFB1380907C00B1EA1F /* GlobalVariables.h */,
+				FC9DFFFC1380907C00B1EA1F /* GlobalVariables.m */,
+				FCBA1C46137D6A74006540EB /* CoreDataManager.h */,
+				FCBA1C47137D6A74006540EB /* CoreDataManager.m */,
+				FCE54410137C2A8D002B5095 /* Cliente.h */,
+				FCE54411137C2A8D002B5095 /* Cliente.m */,
+				FCE5440C137C291E002B5095 /* Model.xcdatamodeld */,
+				FCEF7919137BF9AE000DB8EA /* projectoListaClientes */,
+				FCEF7939137BF9AF000DB8EA /* projectoListaClientesTests */,
+				FCEF7912137BF9AD000DB8EA /* Frameworks */,
+				FCEF7910137BF9AD000DB8EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEF7910137BF9AD000DB8EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF790F137BF9AD000DB8EA /* projectoListaClientes.app */,
+				FCEF7933137BF9AF000DB8EA /* projectoListaClientesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEF7912137BF9AD000DB8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA403D7137D323700CB88B2 /* CoreData.framework */,
+				FCEF7913137BF9AD000DB8EA /* UIKit.framework */,
+				FCEF7915137BF9AD000DB8EA /* Foundation.framework */,
+				FCEF7917137BF9AD000DB8EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCEF7919137BF9AE000DB8EA /* projectoListaClientes */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF7922137BF9AE000DB8EA /* projectoListaClientesAppDelegate.h */,
+				FCEF7923137BF9AE000DB8EA /* projectoListaClientesAppDelegate.m */,
+				FCEF7925137BF9AE000DB8EA /* MainWindow.xib */,
+				FCEF7928137BF9AE000DB8EA /* projectoListaClientesViewController.h */,
+				FCEF7929137BF9AE000DB8EA /* projectoListaClientesViewController.m */,
+				FCEF792B137BF9AE000DB8EA /* projectoListaClientesViewController.xib */,
+				FCEF791A137BF9AE000DB8EA /* Supporting Files */,
+			);
+			path = projectoListaClientes;
+			sourceTree = "<group>";
+		};
+		FCEF791A137BF9AE000DB8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF791B137BF9AE000DB8EA /* projectoListaClientes-Info.plist */,
+				FCEF791C137BF9AE000DB8EA /* InfoPlist.strings */,
+				FCEF791F137BF9AE000DB8EA /* projectoListaClientes-Prefix.pch */,
+				FCEF7920137BF9AE000DB8EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCEF7939137BF9AF000DB8EA /* projectoListaClientesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF7940137BF9AF000DB8EA /* projectoListaClientesTests.h */,
+				FCEF7942137BF9AF000DB8EA /* projectoListaClientesTests.m */,
+				FCEF793A137BF9AF000DB8EA /* Supporting Files */,
+			);
+			path = projectoListaClientesTests;
+			sourceTree = "<group>";
+		};
+		FCEF793A137BF9AF000DB8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF793B137BF9AF000DB8EA /* projectoListaClientesTests-Info.plist */,
+				FCEF793C137BF9AF000DB8EA /* InfoPlist.strings */,
+				FCEF793F137BF9AF000DB8EA /* projectoListaClientesTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCEF790E137BF9AD000DB8EA /* projectoListaClientes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEF7946137BF9AF000DB8EA /* Build configuration list for PBXNativeTarget "projectoListaClientes" */;
+			buildPhases = (
+				FCEF790B137BF9AD000DB8EA /* Sources */,
+				FCEF790C137BF9AD000DB8EA /* Frameworks */,
+				FCEF790D137BF9AD000DB8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projectoListaClientes;
+			productName = projectoListaClientes;
+			productReference = FCEF790F137BF9AD000DB8EA /* projectoListaClientes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCEF7932137BF9AF000DB8EA /* projectoListaClientesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEF7949137BF9AF000DB8EA /* Build configuration list for PBXNativeTarget "projectoListaClientesTests" */;
+			buildPhases = (
+				FCEF792E137BF9AF000DB8EA /* Sources */,
+				FCEF792F137BF9AF000DB8EA /* Frameworks */,
+				FCEF7930137BF9AF000DB8EA /* Resources */,
+				FCEF7931137BF9AF000DB8EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEF7938137BF9AF000DB8EA /* PBXTargetDependency */,
+			);
+			name = projectoListaClientesTests;
+			productName = projectoListaClientesTests;
+			productReference = FCEF7933137BF9AF000DB8EA /* projectoListaClientesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEF7906137BF9AC000DB8EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ArquiConsult;
+			};
+			buildConfigurationList = FCEF7909137BF9AC000DB8EA /* Build configuration list for PBXProject "projectoListaClientes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCEF7904137BF9AC000DB8EA;
+			productRefGroup = FCEF7910137BF9AD000DB8EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEF790E137BF9AD000DB8EA /* projectoListaClientes */,
+				FCEF7932137BF9AF000DB8EA /* projectoListaClientesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEF790D137BF9AD000DB8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF791E137BF9AE000DB8EA /* InfoPlist.strings in Resources */,
+				FCEF7927137BF9AE000DB8EA /* MainWindow.xib in Resources */,
+				FCEF792D137BF9AE000DB8EA /* projectoListaClientesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEF7930137BF9AF000DB8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF793E137BF9AF000DB8EA /* InfoPlist.strings in Resources */,
+				FCEF7941137BF9AF000DB8EA /* projectoListaClientesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCEF7931137BF9AF000DB8EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEF790B137BF9AD000DB8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF7921137BF9AE000DB8EA /* main.m in Sources */,
+				FCEF7924137BF9AE000DB8EA /* projectoListaClientesAppDelegate.m in Sources */,
+				FCEF792A137BF9AE000DB8EA /* projectoListaClientesViewController.m in Sources */,
+				FCE5440E137C291E002B5095 /* Model.xcdatamodeld in Sources */,
+				FCE54412137C2A8D002B5095 /* Cliente.m in Sources */,
+				FCBA1C48137D6A74006540EB /* CoreDataManager.m in Sources */,
+				FC9DFFFD1380907C00B1EA1F /* GlobalVariables.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEF792E137BF9AF000DB8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF7943137BF9AF000DB8EA /* projectoListaClientesTests.m in Sources */,
+				FCE54418137C41B0002B5095 /* projectoListaClientesViewController.m in Sources */,
+				FCBA1C49137D6A74006540EB /* CoreDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCEF7938137BF9AF000DB8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEF790E137BF9AD000DB8EA /* projectoListaClientes */;
+			targetProxy = FCEF7937137BF9AF000DB8EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCEF791C137BF9AE000DB8EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF791D137BF9AE000DB8EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCEF7925137BF9AE000DB8EA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF7926137BF9AE000DB8EA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FCEF792B137BF9AE000DB8EA /* projectoListaClientesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF792C137BF9AE000DB8EA /* en */,
+			);
+			name = projectoListaClientesViewController.xib;
+			sourceTree = "<group>";
+		};
+		FCEF793C137BF9AF000DB8EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF793D137BF9AF000DB8EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCEF7944137BF9AF000DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FCEF7945137BF9AF000DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FCEF7947137BF9AF000DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectoListaClientes/projectoListaClientes-Prefix.pch";
+				INFOPLIST_FILE = "projectoListaClientes/projectoListaClientes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCEF7948137BF9AF000DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectoListaClientes/projectoListaClientes-Prefix.pch";
+				INFOPLIST_FILE = "projectoListaClientes/projectoListaClientes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCEF794A137BF9AF000DB8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/projectoListaClientes.app/projectoListaClientes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectoListaClientesTests/projectoListaClientesTests-Prefix.pch";
+				INFOPLIST_FILE = "projectoListaClientesTests/projectoListaClientesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FCEF794B137BF9AF000DB8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/projectoListaClientes.app/projectoListaClientes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "projectoListaClientesTests/projectoListaClientesTests-Prefix.pch";
+				INFOPLIST_FILE = "projectoListaClientesTests/projectoListaClientesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEF7909137BF9AC000DB8EA /* Build configuration list for PBXProject "projectoListaClientes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF7944137BF9AF000DB8EA /* Debug */,
+				FCEF7945137BF9AF000DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEF7946137BF9AF000DB8EA /* Build configuration list for PBXNativeTarget "projectoListaClientes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF7947137BF9AF000DB8EA /* Debug */,
+				FCEF7948137BF9AF000DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEF7949137BF9AF000DB8EA /* Build configuration list for PBXNativeTarget "projectoListaClientesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF794A137BF9AF000DB8EA /* Debug */,
+				FCEF794B137BF9AF000DB8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCE5440C137C291E002B5095 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCE5440D137C291E002B5095 /* Model.xcdatamodel */,
+			);
+			currentVersion = FCE5440D137C291E002B5095 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCEF7906137BF9AC000DB8EA /* Project object */;
+}
